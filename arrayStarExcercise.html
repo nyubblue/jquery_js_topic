@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Start</title>
+
+</head>
+<body>
+	<div id ="display"></div>
+		<script type="text/javascript">
+		function myFunction(){
+		var ngoiSaos = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus"];
+		var chomSaos = ["Ursa Minor", "Taurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+		var tenNgoiSao = prompt("Nhap ten ngoi sao : ");
+		for(var i =0 ; i< ngoiSaos.length ; i++){
+			switch(tenNgoiSao){
+				case ngoiSaos[i] : return chomSaos[i];
+				break;
+			}
+			}
+		
+		
+			
+			return "Khong tim thay ngoi sao";
+
+		
+
+	}
+	
+
+	var str = "";
+	function prod(){
+		var a = myFunction();
+		var display = document.getElementById("display");
+		display.innerHTML = a;
+		
+	}
+	window.onload = prod();
+	</script>
+</body>
+</html>

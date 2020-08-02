@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Argument Object</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function showMessage(){
+			var a = arguments[0];
+			var b = arguments[1];
+			alert('Display '+ a + ' and ' + b);
+		}
+		window.addEventListener('load', showMessage(2,4));
+	</script>
+</body>
+</html>
