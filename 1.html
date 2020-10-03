@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="1.css">
 	<link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.css">
+	<style>
+		.redClass {
+			color: red; font-style: italic;
+		}
+	</style>
 </head>
 <body>
 		<h1>Selecting the first and last tag</h1>
@@ -18,7 +23,10 @@
 		<p>I love money 3</p>
 		<p>I love money 4</p>
 	</div>
-		<input type = "button" value="Click Me" onclick="setCSS()" />
-		<script src="1.js"></script>
+	<input type = "button" value="Click Me" onclick="setCSS()" />
+	<br>
+	<br>
+	<button type ="button" onclick="myFuncAddClass()" >click add class css</button><div id="add_class">Red</div>
+	<script src="1.js"></script>
 </body>
 </html>
