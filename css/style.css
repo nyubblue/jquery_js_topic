@@ -1,0 +1,12 @@
+body {
+    font: 16px Helvetica, Arial, sans-serif;
+    }
+    form#contactNewsletterForm {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background: yellow;
+    }
+    form#contactNewsletterForm div {
+    padding: 5px;
+    }
