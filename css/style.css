@@ -1,12 +1,61 @@
+html,
 body {
-    font: 16px Helvetica, Arial, sans-serif;
-    }
-    form#contactNewsletterForm {
-    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font: 14px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(128, 128, 128);
+}
+
+table.calendarMonth {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+table.calendarMonth tbody {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+table.calendarMonth th {
+    font-weight: 200;
+    border: 1px solid rgb(224, 224, 224);
     padding: 10px;
-    border: 1px solid black;
+}
+
+tr.calendarHeading th {
+    font: 24px Helvetica, Arial, sans-serif;
+}
+
+table.calendarMonth td {
+    border: 1px solid rgb(224, 224, 224);
+    vertical-align: top;
+    padding: 10px;
+}
+
+td.calendarLastMonth,
+td.calendarNextMonth {
+    color: rgb(204, 204, 204);
+    background: rgb(244, 244, 244);
+}
+
+td.calendarDaySelected {
     background: yellow;
-    }
-    form#contactNewsletterForm div {
-    padding: 5px;
-    }
+}
+
+tr.calendarWeekSelected {
+    background: lightyellow;
+}
+
+td.calendarToday {
+    background: gold;
+}

@@ -9,27 +9,76 @@
 </head>
 
 <body>
-    <form id='contactNewsletterForm' method='get' action='Example 2-2 Submitted.html'>
-        <div>
-            <label for='contactFirstName'>First Name:</label>
-            <input type='text' id='contactFirstName' name='contactFirstName' size='25' maxlength='50'
-                required='required' />
-        </div>
-        <div>
-            <label for='contactLastName'>Last Name:</label>
-            <input type='text' id='contactLastName' name='contactLastName' size='25' maxlength='50'
-                required='required' />
-        </div>
-        <div>
-            <input type='checkbox' id='contactNewsletter' name='contactNewsletter' value='1' />
-            <label for='contactNewsletter'>
-                Subscribe to newsletter?
-            </label>
-        </div>
-        <div>
-            <input type='submit' id='contactNewsletterFormSubmit' name='contactNewsletterFormSubmit' value='Go' />
-        </div>
-    </form>
+    <table class="calendarMonth" data-year="2013" data-month="11">
+        <thead>
+            <tr class="calendarHeading">
+                <th colspan="7">
+                    <span class="calendarMonth">November</span>
+                    <span class="calendarDay"></span>
+                    <span class="calendarYear">2013</span>
+                </th>
+            </tr>
+            <tr class="calendarWeekdays">
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="calendarLastMonth">27</td>
+                <td class="calendarLastMonth">28</td>
+                <td class="calendarLastMonth">29</td>
+                <td class="calendarLastMonth">30</td>
+                <td class="calendarLastMonth calendarLastMonthLastDay">31</ td>
+                <td class="calendarFirstDay">1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td class="calendarToday">20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td class="calendarLastDay">30</td>
+            </tr>
+            <tr>
+                <td colspan="7" class="calendarEmptyWeek"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html
